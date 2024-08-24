@@ -5,7 +5,7 @@ let level=0;
 let start=false;
 
 function playSound(colour){
-    var audio = new Audio(`sounds/${colour}.mp3`);
+    var audio = new Audio(`${colour}.mp3`);
     audio.play();
 }
 
